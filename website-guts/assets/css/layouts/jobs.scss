@@ -108,7 +108,8 @@ body.jobs-layout {
         font-size: .9em;
     }
 
-    .benefits {
+    .benefits,
+    .communities {
         li {
             color: #242424;
             padding-left: 50px;
@@ -126,6 +127,17 @@ body.jobs-layout {
         h6 {
             text-transform: uppercase;
         }
+    }
+
+    .communities {
+      text-align: center;
+      width: 37%;
+      margin: 0 auto;
+
+      h6,
+      p {
+        text-align: center;
+      }
     }
 
     #apple {
@@ -249,7 +261,7 @@ body.jobs-layout {
             }
           }
         }
-        
+
       }
 }
 
@@ -274,7 +286,7 @@ body.jobs-layout {
         .benefits {
             padding: 40px 0;
         }
-        
+
         #job-list-cont {
           width: 760px;
         }

@@ -26,6 +26,14 @@ external_stylesheets:
           {{/each}}
         </ul>
         {{/if}}
+        {{#if jobs.benefits.communities}}
+        <div id="{{jobs.benefits.communities.id}}" class="communities">
+          <h6>
+            <a href="{{linkPath}}/communities">{{jobs.benefits.communities.title}}</a>
+          </h6>
+          <p>{{jobs.benefits.communities.body}}</p>
+        </div>
+        {{/if}}
     </div>
 </div>
 {{/if}}

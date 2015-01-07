@@ -41,6 +41,11 @@ benefits:
     body: "Frequent team outings, game nights, pool, video games, and a ping pong robot"
     id: "pingpong"
 
+  communities:
+    title: "Employee Communities"
+    body: "Optimizely believes in encouraging an open, welcoming workplace that our communities help foster."
+    id: "communities"
+
 employee_testimonials:
 -
     name: "David"
